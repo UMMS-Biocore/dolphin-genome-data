@@ -1,0 +1,5 @@
+01/03/2017 09:43:18 PM docker:/export/genome_data/example_run
+01/03/2017 09:43:18 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepSummary.pl -c Docker -s "/usr/local/bin/dolphin-bin/samtools-1.2/samtools" -u docker -p /export/pub -w VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run
+01/03/2017 09:43:18 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepSummary.bash -n stepSummary -s stepSummary
+01/03/2017 09:43:18 PM STARTED
+01/03/2017 09:43:43 PM ENDED

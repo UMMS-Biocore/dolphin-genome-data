@@ -1,0 +1,16 @@
+/export/genome_data/example_run/scripts/stepSummary.bash
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepSummary&result=2&func=updateJob&field=start_time&jobnum=9564&jobname=stepSummary
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepSummary&func=checkAllJobsFinished
+RESULT[0]:[0]
+control_rep1control_rep1cat /export/genome_data/example_run/tophat/pipe.tophat.control_rep1*/align_summary.txt | grep 'Aligned pairs:' | awk '{sum+=$3} END {print sum}' 
+cat /export/genome_data/example_run/tophat/pipe.tophat.control_rep1*/align_summary.txt | grep -A 1 'Aligned pairs:' | awk 'NR % 3 == 2 {sum+=$3} END {print sum}' 
+[0]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepSummary&result=3&func=updateJob&field=end_time&jobnum=9564&jobname=stepSummary
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&jobnum=9564&func=insertJobOut&jobout=%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepSummary.bash%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepSummary%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D9564%26amp%3Bjobname%3DstepSummary%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepSummary%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3Econtrol_rep1control_rep1cat+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2A%2Falign_summary.txt+%7C+grep+%22Aligned+pairs%3A%22+%7C+awk+%22%7Bsum%2B%3D%243%7D+END+%7Bprint+sum%7D%22%3Cbr%3Ecat+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2A%2Falign_summary.txt+%7C+grep+-A+1+%22Aligned+pairs%3A%22+%7C+awk+%22NR+%25+3+%3D%3D+2+%7Bsum%2B%3D%243%7D+END+%7Bprint+sum%7D%22%3Cbr%3E%5B0%5D
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepSummary&func=checkAllJobsFinished
+RESULT[0]:[1]
+success
+Tue Jan  3 21:43:43 UTC 2017

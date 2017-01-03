@@ -1,0 +1,14 @@
+/export/genome_data/example_run/scripts/stepAlignmentCounttophat.bash
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepAlignmentCounttophat&result=2&func=updateJob&field=start_time&jobnum=9512&jobname=stepAlignmentCounttophat
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepAlignmentCounttophat&func=checkAllJobsFinished
+RESULT[0]:[0]
+[0]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepAlignmentCounttophat&result=3&func=updateJob&field=end_time&jobnum=9512&jobname=stepAlignmentCounttophat
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&jobnum=9512&func=insertJobOut&jobout=%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepAlignmentCounttophat.bash%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepAlignmentCounttophat%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D9512%26amp%3Bjobname%3DstepAlignmentCounttophat%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepAlignmentCounttophat%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3E%5B0%5D
+RESULT[0]:[true]
+DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepAlignmentCounttophat&func=checkAllJobsFinished
+RESULT[0]:[1]
+success
+Tue Jan  3 21:42:47 UTC 2017

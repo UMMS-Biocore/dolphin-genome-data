@@ -1,0 +1,60 @@
+01/03/2017 09:37:47 PM File Path:/mac/dolphin-ui/public/api
+01/03/2017 09:37:47 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:37:47 PM TYPE:dbSubmitJob
+01/03/2017 09:37:47 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=1&func=insertJob&com=python+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-f+Localhost+-u+docker+-k+VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5+-o+%2Fexport%2Fgenome_data%2Fexample_run+-c+%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepTophat2.bash+-n+stepTophat2+-s+stepTophat2+&jobnum=9272&resources=None&jobname=stepTophat2
+01/03/2017 09:37:48 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:37:48 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:37:48 PM TYPE:dbSetStartTime
+01/03/2017 09:37:48 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=2&func=updateJob&field=start_time&jobnum=9272&jobname=stepTophat2
+01/03/2017 09:37:53 PM RESULT[0]:[true]
+01/03/2017 09:37:53 PM INSERTstepTophat2:True
+01/03/2017 09:37:53 PM 
+
+Insert Job => SUBMIT JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9272
+
+
+01/03/2017 09:37:53 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:37:53 PM RESULT[0]:[true]
+01/03/2017 09:37:53 PM UPDATEstepTophat2:True
+01/03/2017 09:37:53 PM 
+
+Update Job => START JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9272
+
+
+01/03/2017 09:37:53 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:37:58 PM RESULT[0]:[0]
+01/03/2017 09:37:58 PM stepTophat2:0
+01/03/2017 09:37:58 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2
+01/03/2017 09:37:58 PM RESULT[0]:[0]
+01/03/2017 09:37:58 PM stepTophat2:0
+01/03/2017 09:37:58 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2
+01/03/2017 09:39:10 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:39:10 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:39:10 PM TYPE:dbSetEndTime
+01/03/2017 09:39:10 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=3&func=updateJob&field=end_time&jobnum=9272&jobname=stepTophat2
+01/03/2017 09:39:16 PM RESULT[0]:[true]
+01/03/2017 09:39:16 PM UPDATEstepTophat2:True
+01/03/2017 09:39:16 PM 
+
+Update Job => END JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9272
+
+
+01/03/2017 09:39:16 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&jobnum=9272&func=insertJobOut&jobout=%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepTophat2.bash%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepTophat2%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D9272%26amp%3Bjobname%3DstepTophat2%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepTophat2%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3ENONE%3Cbr%3E%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq%3Cbr%3Epython+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-u+docker+-s+stepTophat2+-k+VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5+-o+%2Fexport%2Fgenome_data%2Fexample_run+-n+stepTophat2_control_rep1+-c+%22%2Fusr%2Flocal%2Fbin%2Fdolphin-bin%2Ftophat2_2.0.12%2Ftophat2+-p+4++--keep-tmp+-G+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fucsc.gtf++-o+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fmm10+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq++%26amp%3B%26amp%3B+samtools+sort+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Faccepted_hits.bam+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted++%26amp%3B%26amp%3B+samtools+index+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted.bam+%22%3Cbr%3E%5B0%5D
+01/03/2017 09:39:17 PM RESULT[0]:[true]
+01/03/2017 09:39:17 PM jobnum:9272:True
+01/03/2017 09:39:17 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:39:23 PM RESULT[0]:[1]
+01/03/2017 09:39:23 PM stepTophat2:1
+01/03/2017 09:39:23 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2

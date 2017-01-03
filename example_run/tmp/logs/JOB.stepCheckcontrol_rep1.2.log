@@ -1,0 +1,8 @@
+01/03/2017 09:36:23 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:36:23 PM 
+
+
+COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f None -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -s stepCheck -t dbSubmitJob -o /export/genome_data/example_run -j stepCheckcontrol_rep1.2 -m 1 -n 9198 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepCheck -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -n stepCheckcontrol_rep1.2 -c \"zcat /export/genome_data/process/control_rep1.2.fastq.gz  > /export/genome_data/example_run/input/control_rep1.2.fastq\" ']
+
+
+

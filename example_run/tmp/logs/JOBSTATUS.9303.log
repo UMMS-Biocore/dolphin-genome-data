@@ -1,0 +1,60 @@
+01/03/2017 09:37:59 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:37:59 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:37:59 PM TYPE:dbSubmitJob
+01/03/2017 09:37:59 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=1&func=insertJob&com=python+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-u+docker+-s+stepTophat2+-k+VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5+-o+%2Fexport%2Fgenome_data%2Fexample_run+-n+stepTophat2_control_rep1+-c+%5C%22%2Fusr%2Flocal%2Fbin%2Fdolphin-bin%2Ftophat2_2.0.12%2Ftophat2+-p+4++--keep-tmp+-G+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fucsc.gtf++-o+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fmm10+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq++%26%26+samtools+sort+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Faccepted_hits.bam+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted++%26%26+samtools+index+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted.bam+%5C%22+&jobnum=9303&resources=None&jobname=stepTophat2_control_rep1
+01/03/2017 09:38:00 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:38:00 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:38:00 PM TYPE:dbSetStartTime
+01/03/2017 09:38:00 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=2&func=updateJob&field=start_time&jobnum=9303&jobname=stepTophat2_control_rep1
+01/03/2017 09:38:05 PM RESULT[0]:[true]
+01/03/2017 09:38:05 PM INSERTstepTophat2_control_rep1:True
+01/03/2017 09:38:05 PM 
+
+Insert Job => SUBMIT JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9303
+
+
+01/03/2017 09:38:05 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:38:05 PM RESULT[0]:[true]
+01/03/2017 09:38:05 PM UPDATEstepTophat2_control_rep1:True
+01/03/2017 09:38:05 PM 
+
+Update Job => START JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9303
+
+
+01/03/2017 09:38:05 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:38:10 PM RESULT[0]:[0]
+01/03/2017 09:38:10 PM stepTophat2:0
+01/03/2017 09:38:10 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2
+01/03/2017 09:38:10 PM RESULT[0]:[0]
+01/03/2017 09:38:10 PM stepTophat2:0
+01/03/2017 09:38:10 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2
+01/03/2017 09:38:57 PM File Path:/mac/dolphin-tools/src
+01/03/2017 09:38:57 PM WKEY:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5
+01/03/2017 09:38:57 PM TYPE:dbSetEndTime
+01/03/2017 09:38:57 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&result=3&func=updateJob&field=end_time&jobnum=9303&jobname=stepTophat2_control_rep1
+01/03/2017 09:39:03 PM RESULT[0]:[true]
+01/03/2017 09:39:03 PM UPDATEstepTophat2_control_rep1:True
+01/03/2017 09:39:03 PM 
+
+Update Job => END JOB:
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2 jobnum:9303
+
+
+01/03/2017 09:39:04 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&jobnum=9303&func=insertJobOut&jobout=%2Fusr%2Flocal%2Fbin%2Fdolphin-bin%2Ftophat2_2.0.12%2Ftophat2+-p+4++--keep-tmp+-G+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fucsc.gtf++-o+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fmm10+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq++%26amp%3B%26amp%3B+samtools+sort+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Faccepted_hits.bam+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted++%26amp%3B%26amp%3B+samtools+index+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Fcontrol_rep1.sorted.bam%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepTophat2%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D9303%26amp%3Bjobname%3DstepTophat2_control_rep1%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DVQMfXYCw8H0lZCpLGbyZvwtSTYHvT5%26amp%3Bservicename%3DstepTophat2%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3E%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Beginning+TopHat+run+%28v2.0.12%29%3Cbr%3E-----------------------------------------------%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Checking+for+Bowtie%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3BBowtie+version%3A%09+2.2.3.0%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Checking+for+Samtools%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3BSamtools+version%3A%09+0.1.19.0%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Checking+for+Bowtie+index+files+%28genome%29..%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3BFound+both+Bowtie1+and+Bowtie2+indexes.%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Checking+for+reference+FASTA+file%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Generating+SAM+header+for+%2Fexport%2Fgenome_data%2Fmousetest%2Fmm10%2Fmm10%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Reading+known+junctions+from+GTF+file%3Cbr%3E%5B2017-01-03+21%3A38%3A11%5D+Preparing+reads%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3Bleft+reads%3A+min.+length%3D40%2C+max.+length%3D40%2C+24788+kept+reads+%280+discarded%29%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3Bright+reads%3A+min.+length%3D40%2C+max.+length%3D40%2C+24788+kept+reads+%280+discarded%29%3Cbr%3E...%3Cbr%3E%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3Bwe+strongly+recommend+that+you+decrease+--segment-length+to+about+half+the+read+length+because+TopHat+will+work+better+with+multiple+segments%3Cbr%3E%5B2017-01-03+21%3A38%3A35%5D+Mapping+left_kept_reads.m2g_um+to+genome+mm10+with+Bowtie2%3Cbr%3E%5B2017-01-03+21%3A38%3A36%5D+Mapping+right_kept_reads.m2g_um+to+genome+mm10+with+Bowtie2%3Cbr%3E%5B2017-01-03+21%3A38%3A36%5D+Searching+for+junctions+via+segment+mapping%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3BCoverage-search+algorithm+is+turned+on%2C+making+this+step+very+slow%3Cbr%3E%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3BPlease+try+running+TopHat+again+with+the+option+%28--no-coverage-search%29+if+this+step+takes+too+much+time+or+memory.%3Cbr%3E%5B2017-01-03+21%3A38%3A39%5D+Retrieving+sequences+for+splices%3Cbr%3E%5B2017-01-03+21%3A38%3A45%5D+Indexing+splices%3Cbr%3EBuilding+a+SMALL+index%3Cbr%3EWarning%3A+Encountered+reference+sequence+with+only+gaps%3Cbr%3EWarning%3A+Encountered+reference+sequence+with+only+gaps%3Cbr%3E%5B2017-01-03+21%3A38%3A50%5D+Mapping+left_kept_reads.m2g_um_unmapped+to+genome+segment_juncs+with+Bowtie2+%281%2F1%29%3Cbr%3E%5B2017-01-03+21%3A38%3A50%5D+Joining+segment+hits%3Cbr%3E%5B2017-01-03+21%3A38%3A51%5D+Mapping+right_kept_reads.m2g_um_unmapped+to+genome+segment_juncs+with+Bowtie2+%281%2F1%29%3Cbr%3E%5B2017-01-03+21%3A38%3A52%5D+Joining+segment+hits%3Cbr%3E%5B2017-01-03+21%3A38%3A53%5D+Reporting+output+tracks%3Cbr%3E-----------------------------------------------%3Cbr%3E%5B2017-01-03+21%3A38%3A57%5D+A+summary+of+the+alignment+counts+can+be+found+in+%2Fexport%2Fgenome_data%2Fexample_run%2Ftophat%2Fpipe.tophat.control_rep1%2Falign_summary.txt%3Cbr%3E%5B2017-01-03+21%3A38%3A57%5D+Run+complete%3A+00%3A00%3A46+elapsed%3Cbr%3E%5B0%5D
+01/03/2017 09:39:05 PM RESULT[0]:[true]
+01/03/2017 09:39:05 PM jobnum:9303:True
+01/03/2017 09:39:05 PM DATA:username=docker&wkey=VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5&servicename=stepTophat2&func=checkAllJobsFinished
+01/03/2017 09:39:10 PM RESULT[0]:[0]
+01/03/2017 09:39:10 PM stepTophat2:0
+01/03/2017 09:39:10 PM 
+
+Check if All JOBS finished
+res:None wkey:VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 servicename:stepTophat2

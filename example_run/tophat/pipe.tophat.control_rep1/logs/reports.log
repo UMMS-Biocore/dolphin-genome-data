@@ -1,0 +1,12 @@
+tophat_reports v2.0.12 (4238:4275M)
+---------------------------------------
+[samopen] SAM header is present: 2 sequences.
+	Loading chr7...done
+	Loading chr16...done
+	Loading ...done
+Loaded 6715 GFF junctions from /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/tmp/ucsc.juncs.
+Loaded 6715 junctions
+Printing junction BED track...done
+Printing insertions...done
+Printing deletions...done
+Found 216 junctions from happy spliced reads

@@ -1,0 +1,35 @@
+
+[2017-01-03 21:38:11] Beginning TopHat run (v2.0.12)
+-----------------------------------------------
+[2017-01-03 21:38:11] Checking for Bowtie
+		  Bowtie version:	 2.2.3.0
+[2017-01-03 21:38:11] Checking for Samtools
+		Samtools version:	 0.1.19.0
+[2017-01-03 21:38:11] Checking for Bowtie index files (genome)..
+[2017-01-03 21:38:11] Checking for reference FASTA file
+[2017-01-03 21:38:11] Generating SAM header for /export/genome_data/mousetest/mm10/mm10
+[2017-01-03 21:38:11] Reading known junctions from GTF file
+[2017-01-03 21:38:11] Preparing reads
+	 left reads: min. length=40, max. length=40, 24788 kept reads (0 discarded)
+	right reads: min. length=40, max. length=40, 24788 kept reads (0 discarded)
+[2017-01-03 21:38:12] Building transcriptome data files /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/tmp/ucsc
+[2017-01-03 21:38:27] Building Bowtie index from ucsc.fa
+[2017-01-03 21:38:33] Mapping left_kept_reads to transcriptome ucsc with Bowtie2 
+[2017-01-03 21:38:34] Mapping right_kept_reads to transcriptome ucsc with Bowtie2 
+[2017-01-03 21:38:35] Resuming TopHat pipeline with unmapped reads
+Warning: you have only one segment per read.
+	If the read length is greater than or equal to 45bp,
+	we strongly recommend that you decrease --segment-length to about half the read length because TopHat will work better with multiple segments
+[2017-01-03 21:38:35] Mapping left_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-03 21:38:36] Mapping right_kept_reads.m2g_um to genome mm10 with Bowtie2 
+[2017-01-03 21:38:36] Searching for junctions via segment mapping
+[2017-01-03 21:38:39] Retrieving sequences for splices
+[2017-01-03 21:38:45] Indexing splices
+[2017-01-03 21:38:50] Mapping left_kept_reads.m2g_um_unmapped to genome segment_juncs with Bowtie2 (1/1)
+[2017-01-03 21:38:50] Joining segment hits
+[2017-01-03 21:38:51] Mapping right_kept_reads.m2g_um_unmapped to genome segment_juncs with Bowtie2 (1/1)
+[2017-01-03 21:38:52] Joining segment hits
+[2017-01-03 21:38:53] Reporting output tracks
+-----------------------------------------------
+[2017-01-03 21:38:57] A summary of the alignment counts can be found in /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/align_summary.txt
+[2017-01-03 21:38:57] Run complete: 00:00:46 elapsed
