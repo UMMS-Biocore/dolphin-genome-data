@@ -1,5 +1,5 @@
-01/03/2017 09:36:12 PM docker:/export/genome_data/example_run
-01/03/2017 09:36:12 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepCheck.pl -c Docker -i control_rep1,/export/genome_data/process/control_rep1.1.fastq.gz,/export/genome_data/process/control_rep1.2.fastq.gz -u docker -b NONE -w VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -p 5 -d "python /usr/local/share/dolphin_tools/tools/Dolphinv1.3/dbcomm.py" -a NONE -t NONE -o /export/genome_data/example_run -r resume -s stepCheck -j "python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepCheck -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run"
-01/03/2017 09:36:12 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepCheck.bash -n stepCheck -s stepCheck
-01/03/2017 09:36:12 PM STARTED
-01/03/2017 09:37:24 PM ENDED
+01/03/2017 10:27:45 PM docker:/export/genome_data/example_run
+01/03/2017 10:27:45 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepCheck.pl -c Docker -i control_rep1,/export/genome_data/process/control_rep1.1.fastq.gz,/export/genome_data/process/control_rep1.2.fastq.gz -u docker -b NONE -w kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -p 5 -d "python /usr/local/share/dolphin_tools/tools/Dolphinv1.3/dbcomm.py" -a NONE -t NONE -o /export/genome_data/example_run -r resume -s stepCheck -j "python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepCheck -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run"
+01/03/2017 10:27:45 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepCheck.bash -n stepCheck -s stepCheck
+01/03/2017 10:27:45 PM STARTED
+01/03/2017 10:28:57 PM ENDED

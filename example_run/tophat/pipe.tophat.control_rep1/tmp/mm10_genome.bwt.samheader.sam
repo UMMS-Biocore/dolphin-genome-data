@@ -1,0 +1,4 @@
+@HD	VN:1.0	SO:coordinate
+@SQ	SN:chr16	LN:9500000
+@SQ	SN:chr7	LN:50500000
+@PG	ID:TopHat	VN:2.0.12	CL:/usr/local/bin/dolphin-bin/tophat2_2.0.12/tophat -p 4 --keep-tmp -G /export/genome_data/mousetest/mm10/ucsc.gtf -o /export/genome_data/example_run/tophat/pipe.tophat.control_rep1 /export/genome_data/mousetest/mm10/mm10 /export/genome_data/example_run/input/control_rep1.1.fastq /export/genome_data/example_run/input/control_rep1.2.fastq

@@ -1,1 +1,1 @@
-perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepClean.pl -c Docker -l 0 -u docker -p /export/pub -w VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -d "python /usr/local/share/dolphin_tools/tools/Dolphinv1.3/dbcomm.py"  -o /export/genome_data/example_run
+perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepClean.pl -c Docker -l 0 -u docker -p /export/pub -w kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -d "python /usr/local/share/dolphin_tools/tools/Dolphinv1.3/dbcomm.py"  -o /export/genome_data/example_run

@@ -1,8 +1,8 @@
-01/03/2017 09:44:15 PM File Path:/mac/dolphin-ui/public/api
-01/03/2017 09:44:15 PM 
+01/03/2017 10:35:33 PM File Path:/mac/dolphin-ui/public/api
+01/03/2017 10:35:33 PM 
 
 
-COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -s stepClean -t dbSubmitJob -o /export/genome_data/example_run -j stepClean -m 1 -n 9642 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepClean.bash -n stepClean -s stepClean ']
+COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -s stepClean -t dbSubmitJob -o /export/genome_data/example_run -j stepClean -m 1 -n 10709 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepClean.bash -n stepClean -s stepClean ']
 
 
 

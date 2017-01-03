@@ -1,8 +1,8 @@
-01/03/2017 09:37:59 PM File Path:/mac/dolphin-tools/src
-01/03/2017 09:37:59 PM 
+01/03/2017 10:29:24 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:29:24 PM 
 
 
-COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f None -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -s stepTophat2 -t dbSubmitJob -o /export/genome_data/example_run -j stepTophat2_control_rep1 -m 1 -n 9303 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepTophat2 -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -n stepTophat2_control_rep1 -c \"/usr/local/bin/dolphin-bin/tophat2_2.0.12/tophat2 -p 4  --keep-tmp -G /export/genome_data/mousetest/mm10/ucsc.gtf  -o /export/genome_data/example_run/tophat/pipe.tophat.control_rep1 /export/genome_data/mousetest/mm10/mm10 /export/genome_data/example_run/input/control_rep1.1.fastq /export/genome_data/example_run/input/control_rep1.2.fastq  && samtools sort /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/accepted_hits.bam /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/control_rep1.sorted  && samtools index /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/control_rep1.sorted.bam \" ']
+COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f None -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -s stepTophat2 -t dbSubmitJob -o /export/genome_data/example_run -j stepTophat2_control_rep1 -m 1 -n 10229 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepTophat2 -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -n stepTophat2_control_rep1 -c \"/usr/local/bin/dolphin-bin/tophat2_2.0.12/tophat2 -p 4  --keep-tmp -G /export/genome_data/mousetest/mm10/ucsc.gtf  -o /export/genome_data/example_run/tophat/pipe.tophat.control_rep1 /export/genome_data/mousetest/mm10/mm10 /export/genome_data/example_run/input/control_rep1.1.fastq /export/genome_data/example_run/input/control_rep1.2.fastq  && samtools sort /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/accepted_hits.bam /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/control_rep1.sorted  && samtools index /export/genome_data/example_run/tophat/pipe.tophat.control_rep1/control_rep1.sorted.bam \" ']
 
 
 

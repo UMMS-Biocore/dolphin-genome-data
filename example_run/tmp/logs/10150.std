@@ -1,0 +1,14 @@
+zcat /export/genome_data/process/control_rep1.2.fastq.gz  > /export/genome_data/example_run/input/control_rep1.2.fastq
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=2&func=updateJob&field=start_time&jobnum=10150&jobname=stepCheckcontrol_rep1.2
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+RESULT[0]:[0]
+[0]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=3&func=updateJob&field=end_time&jobnum=10150&jobname=stepCheckcontrol_rep1.2
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&jobnum=10150&func=insertJobOut&jobout=zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.2.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D10150%26amp%3Bjobname%3DstepCheckcontrol_rep1.2%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3E%5B0%5D
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+RESULT[0]:[0]
+success
+Tue Jan  3 22:28:43 UTC 2017

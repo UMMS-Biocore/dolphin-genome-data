@@ -1,0 +1,60 @@
+01/03/2017 10:27:56 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:27:56 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:27:56 PM TYPE:dbSubmitJob
+01/03/2017 10:27:56 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=1&func=insertJob&com=python+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-u+docker+-s+stepCheck+-k+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG+-o+%2Fexport%2Fgenome_data%2Fexample_run+-n+stepCheckcontrol_rep1.1+-c+%5C%22zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz++%3E+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq%5C%22+&jobnum=10123&resources=None&jobname=stepCheckcontrol_rep1.1
+01/03/2017 10:27:57 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:27:57 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:27:57 PM TYPE:dbSetStartTime
+01/03/2017 10:27:57 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=2&func=updateJob&field=start_time&jobnum=10123&jobname=stepCheckcontrol_rep1.1
+01/03/2017 10:28:02 PM RESULT[0]:[true]
+01/03/2017 10:28:02 PM INSERTstepCheckcontrol_rep1.1:True
+01/03/2017 10:28:02 PM 
+
+Insert Job => SUBMIT JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck jobnum:10123
+
+
+01/03/2017 10:28:02 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+01/03/2017 10:28:02 PM RESULT[0]:[true]
+01/03/2017 10:28:02 PM UPDATEstepCheckcontrol_rep1.1:True
+01/03/2017 10:28:02 PM 
+
+Update Job => START JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck jobnum:10123
+
+
+01/03/2017 10:28:02 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+01/03/2017 10:28:07 PM RESULT[0]:[0]
+01/03/2017 10:28:07 PM stepCheck:0
+01/03/2017 10:28:07 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck
+01/03/2017 10:28:07 PM RESULT[0]:[0]
+01/03/2017 10:28:07 PM stepCheck:0
+01/03/2017 10:28:07 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck
+01/03/2017 10:28:07 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:28:07 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:28:07 PM TYPE:dbSetEndTime
+01/03/2017 10:28:07 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=3&func=updateJob&field=end_time&jobnum=10123&jobname=stepCheckcontrol_rep1.1
+01/03/2017 10:28:14 PM RESULT[0]:[true]
+01/03/2017 10:28:14 PM UPDATEstepCheckcontrol_rep1.1:True
+01/03/2017 10:28:14 PM 
+
+Update Job => END JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck jobnum:10123
+
+
+01/03/2017 10:28:14 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&jobnum=10123&func=insertJobOut&jobout=zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D10123%26amp%3Bjobname%3DstepCheckcontrol_rep1.1%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3E%5B0%5D
+01/03/2017 10:28:15 PM RESULT[0]:[true]
+01/03/2017 10:28:15 PM jobnum:10123:True
+01/03/2017 10:28:15 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+01/03/2017 10:28:20 PM RESULT[0]:[0]
+01/03/2017 10:28:20 PM stepCheck:0
+01/03/2017 10:28:20 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepCheck

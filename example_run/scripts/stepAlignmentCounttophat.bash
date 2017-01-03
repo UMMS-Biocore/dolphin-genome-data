@@ -1,1 +1,1 @@
-perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepAlignmentCount.pl -c Docker -s "/usr/local/bin/dolphin-bin/samtools-1.2/samtools" -u docker -t tophat -p /export/pub -w VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run
+perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepAlignmentCount.pl -c Docker -s "/usr/local/bin/dolphin-bin/samtools-1.2/samtools" -u docker -t tophat -p /export/pub -w kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run

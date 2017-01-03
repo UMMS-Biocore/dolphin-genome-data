@@ -1,8 +1,8 @@
-01/03/2017 09:42:22 PM File Path:/mac/dolphin-ui/public/api
-01/03/2017 09:42:22 PM 
+01/03/2017 10:33:41 PM File Path:/mac/dolphin-ui/public/api
+01/03/2017 10:33:41 PM 
 
 
-COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -s stepAlignmentCounttophat -t dbSubmitJob -o /export/genome_data/example_run -j stepAlignmentCounttophat -m 1 -n 9512 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepAlignmentCounttophat.bash -n stepAlignmentCounttophat -s stepAlignmentCounttophat ']
+COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -s stepAlignmentCounttophat -t dbSubmitJob -o /export/genome_data/example_run -j stepAlignmentCounttophat -m 1 -n 10440 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepAlignmentCounttophat.bash -n stepAlignmentCounttophat -s stepAlignmentCounttophat ']
 
 
 

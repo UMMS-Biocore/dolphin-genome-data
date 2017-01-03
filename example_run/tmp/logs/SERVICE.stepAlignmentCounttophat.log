@@ -1,5 +1,5 @@
-01/03/2017 09:42:22 PM docker:/export/genome_data/example_run
-01/03/2017 09:42:22 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepAlignmentCount.pl -c Docker -s "/usr/local/bin/dolphin-bin/samtools-1.2/samtools" -u docker -t tophat -p /export/pub -w VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run
-01/03/2017 09:42:22 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k VQMfXYCw8H0lZCpLGbyZvwtSTYHvT5 -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepAlignmentCounttophat.bash -n stepAlignmentCounttophat -s stepAlignmentCounttophat
-01/03/2017 09:42:22 PM STARTED
-01/03/2017 09:42:47 PM ENDED
+01/03/2017 10:33:41 PM docker:/export/genome_data/example_run
+01/03/2017 10:33:41 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepAlignmentCount.pl -c Docker -s "/usr/local/bin/dolphin-bin/samtools-1.2/samtools" -u docker -t tophat -p /export/pub -w kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run
+01/03/2017 10:33:41 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepAlignmentCounttophat.bash -n stepAlignmentCounttophat -s stepAlignmentCounttophat
+01/03/2017 10:33:41 PM STARTED
+01/03/2017 10:34:06 PM ENDED

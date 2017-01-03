@@ -1,0 +1,60 @@
+01/03/2017 10:35:34 PM File Path:/mac/dolphin-ui/public/api
+01/03/2017 10:35:34 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:35:34 PM TYPE:dbSubmitJob
+01/03/2017 10:35:34 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&result=1&func=insertJob&com=python+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-f+Localhost+-u+docker+-k+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG+-o+%2Fexport%2Fgenome_data%2Fexample_run+-c+%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepClean.bash+-n+stepClean+-s+stepClean+&jobnum=10709&resources=None&jobname=stepClean
+01/03/2017 10:35:35 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:35:35 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:35:35 PM TYPE:dbSetStartTime
+01/03/2017 10:35:35 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&result=2&func=updateJob&field=start_time&jobnum=10709&jobname=stepClean
+01/03/2017 10:35:40 PM RESULT[0]:[true]
+01/03/2017 10:35:40 PM INSERTstepClean:True
+01/03/2017 10:35:40 PM 
+
+Insert Job => SUBMIT JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean jobnum:10709
+
+
+01/03/2017 10:35:40 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&func=checkAllJobsFinished
+01/03/2017 10:35:40 PM RESULT[0]:[true]
+01/03/2017 10:35:40 PM UPDATEstepClean:True
+01/03/2017 10:35:40 PM 
+
+Update Job => START JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean jobnum:10709
+
+
+01/03/2017 10:35:40 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&func=checkAllJobsFinished
+01/03/2017 10:35:45 PM RESULT[0]:[0]
+01/03/2017 10:35:45 PM stepClean:0
+01/03/2017 10:35:45 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean
+01/03/2017 10:35:45 PM RESULT[0]:[0]
+01/03/2017 10:35:45 PM stepClean:0
+01/03/2017 10:35:45 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean
+01/03/2017 10:35:50 PM File Path:/mac/dolphin-tools/src
+01/03/2017 10:35:50 PM WKEY:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG
+01/03/2017 10:35:50 PM TYPE:dbSetEndTime
+01/03/2017 10:35:50 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&result=3&func=updateJob&field=end_time&jobnum=10709&jobname=stepClean
+01/03/2017 10:35:56 PM RESULT[0]:[true]
+01/03/2017 10:35:56 PM UPDATEstepClean:True
+01/03/2017 10:35:56 PM 
+
+Update Job => END JOB:
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean jobnum:10709
+
+
+01/03/2017 10:35:56 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&jobnum=10709&func=insertJobOut&jobout=%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepClean.bash%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepClean%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D10709%26amp%3Bjobname%3DstepClean%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepClean%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3Epython+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Ftools%2FDolphinv1.3%2Fdbcomm.py+-c+Docker+-u+docker+-i+%2Fexport%2Fpub%2FkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%2Freports.tsv+-f+insertreport+-w+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG%3Cbr%3E%3Cbr%3Epython+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Ftools%2FDolphinv1.3%2Fdbcomm.py+-c+Docker+-u+docker+-o+%2Fexport%2Fgenome_data%2Fexample_run+-f+insertJobStats+-w+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG%3Cbr%3E%3Cbr%3E%5B0%5D
+01/03/2017 10:35:57 PM RESULT[0]:[true]
+01/03/2017 10:35:57 PM jobnum:10709:True
+01/03/2017 10:35:57 PM DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepClean&func=checkAllJobsFinished
+01/03/2017 10:36:03 PM RESULT[0]:[1]
+01/03/2017 10:36:03 PM stepClean:1
+01/03/2017 10:36:03 PM 
+
+Check if All JOBS finished
+res:None wkey:kGwU8f4YSSbSTNsMt3c57DRiqtqBFG servicename:stepClean
