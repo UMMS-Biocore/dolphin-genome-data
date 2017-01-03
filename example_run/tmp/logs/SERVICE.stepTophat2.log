@@ -1,0 +1,5 @@
+01/03/2017 10:29:13 PM docker:/export/genome_data/example_run
+01/03/2017 10:29:13 PM perl /usr/local/share/dolphin_tools/tools/Dolphinv1.3/stepTophat2.pl -o /export/genome_data/example_run -g /export/genome_data/mousetest/mm10/ucsc.gtf -d paired -pub /export/pub -w kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -pa NONE -pr NONE -t /usr/local/bin/dolphin-bin/tophat2_2.0.12/tophat2 -b /export/genome_data/mousetest/mm10/mm10 -sa samtools -se stepTophat2 -j "python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepTophat2 -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run"
+01/03/2017 10:29:13 PM python  /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepTophat2.bash -n stepTophat2 -s stepTophat2
+01/03/2017 10:29:13 PM STARTED
+01/03/2017 10:30:44 PM ENDED

@@ -1,0 +1,8 @@
+01/03/2017 10:34:37 PM File Path:/mac/dolphin-ui/public/api
+01/03/2017 10:34:37 PM 
+
+
+COM:[python /usr/local/share/dolphin_tools/src/jobStatus.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -s stepSummary -t dbSubmitJob -o /export/genome_data/example_run -j stepSummary -m 1 -n 10493 -c 'python /usr/local/share/dolphin_tools/src/runJobs.py -f Localhost -u docker -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -c /export/genome_data/example_run/scripts/stepSummary.bash -n stepSummary -s stepSummary ']
+
+
+

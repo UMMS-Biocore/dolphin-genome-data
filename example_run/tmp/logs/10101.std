@@ -1,0 +1,28 @@
+/export/genome_data/example_run/scripts/stepCheck.bash
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=2&func=updateJob&field=start_time&jobnum=10101&jobname=stepCheck
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+RESULT[0]:[0]
+control_rep1,/export/genome_data/process/control_rep1.1.fastq.gz,/export/genome_data/process/control_rep1.2.fastq.gz
+Libname:[control_rep1]
+[/export/genome_data/process/control_rep1.1.fastq.gz]
+/export/genome_data/example_run/tmp/track/stepCheckcontrol_rep1.1.success
+[/export/genome_data/process/control_rep1.2.fastq.gz]
+/export/genome_data/example_run/tmp/track/stepCheckcontrol_rep1.2.success
+COMMAND: [ zcat /export/genome_data/process/control_rep1.1.fastq.gz  > /export/genome_data/example_run/input/control_rep1.1.fastq ]
+
+python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepCheck -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -n stepCheckcontrol_rep1.1 -c "zcat /export/genome_data/process/control_rep1.1.fastq.gz  > /export/genome_data/example_run/input/control_rep1.1.fastq"
+
+COMMAND: [ zcat /export/genome_data/process/control_rep1.2.fastq.gz  > /export/genome_data/example_run/input/control_rep1.2.fastq ]
+
+python /usr/local/share/dolphin_tools/src/runJobs.py -u docker -s stepCheck -k kGwU8f4YSSbSTNsMt3c57DRiqtqBFG -o /export/genome_data/example_run -n stepCheckcontrol_rep1.2 -c "zcat /export/genome_data/process/control_rep1.2.fastq.gz  > /export/genome_data/example_run/input/control_rep1.2.fastq"
+
+[0]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&result=3&func=updateJob&field=end_time&jobnum=10101&jobname=stepCheck
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&jobnum=10101&func=insertJobOut&jobout=%2Fexport%2Fgenome_data%2Fexample_run%2Fscripts%2FstepCheck.bash%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bresult%3D2%26amp%3Bfunc%3DupdateJob%26amp%3Bfield%3Dstart_time%26amp%3Bjobnum%3D10101%26amp%3Bjobname%3DstepCheck%3Cbr%3ERESULT%5B0%5D%3A%5Btrue%5D%3Cbr%3EDATA%3Ausername%3Ddocker%26amp%3Bwkey%3DkGwU8f4YSSbSTNsMt3c57DRiqtqBFG%26amp%3Bservicename%3DstepCheck%26amp%3Bfunc%3DcheckAllJobsFinished%3Cbr%3ERESULT%5B0%5D%3A%5B0%5D%3Cbr%3Econtrol_rep1%2C%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz%2C%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.2.fastq.gz%3Cbr%3ELibname%3A%5Bcontrol_rep1%5D%3Cbr%3E%5B%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz%5D%3Cbr%3E%2Fexport%2Fgenome_data%2Fexample_run%2Ftmp%2Ftrack%2FstepCheckcontrol_rep1.1.success%3Cbr%3E%5B%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.2.fastq.gz%5D%3Cbr%3E%2Fexport%2Fgenome_data%2Fexample_run%2Ftmp%2Ftrack%2FstepCheckcontrol_rep1.2.success%3Cbr%3ECOMMAND%3A+%5B+zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq+%5D%3Cbr%3E%3Cbr%3Epython+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-u+docker+-s+stepCheck+-k+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG+-o+%2Fexport%2Fgenome_data%2Fexample_run+-n+stepCheckcontrol_rep1.1+-c+%22zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.1.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.1.fastq%22%3Cbr%3E%3Cbr%3ECOMMAND%3A+%5B+zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.2.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq+%5D%3Cbr%3E%3Cbr%3Epython+%2Fusr%2Flocal%2Fshare%2Fdolphin_tools%2Fsrc%2FrunJobs.py+-u+docker+-s+stepCheck+-k+kGwU8f4YSSbSTNsMt3c57DRiqtqBFG+-o+%2Fexport%2Fgenome_data%2Fexample_run+-n+stepCheckcontrol_rep1.2+-c+%22zcat+%2Fexport%2Fgenome_data%2Fprocess%2Fcontrol_rep1.2.fastq.gz++%26gt%3B+%2Fexport%2Fgenome_data%2Fexample_run%2Finput%2Fcontrol_rep1.2.fastq%22%3Cbr%3E%3Cbr%3E%5B0%5D
+RESULT[0]:[true]
+DATA:username=docker&wkey=kGwU8f4YSSbSTNsMt3c57DRiqtqBFG&servicename=stepCheck&func=checkAllJobsFinished
+RESULT[0]:[1]
+success
+Tue Jan  3 22:28:57 UTC 2017
